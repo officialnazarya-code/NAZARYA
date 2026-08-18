@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#080806" />
+  <title>NAZARYA — Wear Your Identity</title>
+  <meta name="description" content="NAZARYA premium fashion e-commerce website" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div id="announcement" class="announcement">FREE DELIVERY ON ALL ORDERS ABOVE PKR 5,000</div>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <nav class="nav-links">
+        <a class="active" href="#home">HOME</a><a href="#shop">SHOP</a><a href="#collections">COLLECTIONS</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a>
+      </nav>
+      <button class="icon-btn mobile-menu" aria-label="Menu">☰</button>
+      <a href="#home"><img src="assets/images/logo.png" class="logo" alt="NAZARYA" /></a>
+      <div class="nav-icons">
+        <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+        <a class="icon-btn" href="admin.html" aria-label="Account">♙</a>
+        <button class="icon-btn" id="cartBtn" aria-label="Cart">▱<span id="cartCount" class="cart-count">0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div id="heroMedia" class="hero-media" style="background-image:url('assets/images/hero.jpg')"></div>
+      <div class="container hero-content">
+        <h1><span id="heroTitle1">WEAR YOUR</span><span id="heroTitle2">IDENTITY</span></h1>
+        <div class="gold-rule"></div>
+        <p id="heroSubtitle">Clothing that reflects who you are.</p>
+        <a id="heroButton" class="outline-btn" href="#shop">SHOP NOW</a>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container benefit-grid">
+        <div class="benefit"><div class="benefit-icon">✧</div><div><b>PREMIUM QUALITY</b><span>Timeless & Durable</span></div></div>
+        <div class="benefit"><div class="benefit-icon">◎</div><div><b>OVERSIZED FIT</b><span>Comfort in Every Stitch</span></div></div>
+        <div class="benefit"><div class="benefit-icon">♜</div><div><b>280 - 260 GSM</b><span>Heavyweight Fabric</span></div></div>
+        <div class="benefit"><div class="benefit-icon">↺</div><div><b>EASY RETURNS</b><span>Hassle Free Returns</span></div></div>
+      </div>
+    </section>
+
+    <section id="shop" class="products-section container">
+      <h2 class="section-title">FIRST COLLECTION - DROP 001</h2>
+      <div id="productsGrid" class="products-grid"></div>
+    </section>
+
+    <section id="collections" class="container packaging-grid">
+      <article class="pack-card"><img src="assets/images/pack1.jpg" alt="Neck label"><div class="pack-copy"><h3>NECK LABEL</h3><p>Premium woven neck label for a refined finish.</p></div></article>
+      <article class="pack-card"><img src="assets/images/pack2.jpg" alt="Hang tag"><div class="pack-copy"><h3>HANG TAG</h3><p>Minimal. Elegant. Iconic. Just like the brand.</p></div></article>
+      <article class="pack-card"><img src="assets/images/pack3.jpg" alt="Premium packaging"><div class="pack-copy"><h3>PREMIUM PACKAGING</h3><p>Unboxing experience that reflects our standards.</p></div></article>
+      <article class="pack-card"><img src="assets/images/pack4.jpg" alt="Packaging box"><div class="pack-copy"><h3>PACKAGING BOX</h3><p>Crafted to protect, designed to impress.</p></div></article>
+    </section>
+
+    <section id="about" class="container story">
+      <div class="lookbook"><div class="small-heading">LOOKBOOK</div><img src="assets/images/lookbook.jpg" alt="NAZARYA lookbook" /></div>
+      <div class="about-box">
+        <h2 id="aboutTitle">ABOUT NAZARYA</h2>
+        <p id="aboutText">Nazarya is more than clothing — it’s a reflection of mindset, culture and purity in style. Every piece is designed for those who carry confidence with humility.</p>
+        <a class="outline-btn" href="#collections">OUR STORY</a>
+        <div class="about-icons"><div><strong>✧</strong>TIMELESS<br>DESIGNS</div><div><strong>◇</strong>PREMIUM<br>QUALITY</div><div><strong>⊗</strong>CULTURAL<br>ESSENCE</div><div><strong>▣</strong>MADE IN<br>PAKISTAN</div></div>
+      </div>
+    </section>
+
+    <section class="container instagram-section">
+      <div class="insta-head">INSTAGRAM <span id="instagramHandle">@NAZARYA.OFFICIAL</span></div>
+      <div class="insta-grid"><img src="assets/images/insta1.jpg" alt="Instagram"><img src="assets/images/insta2.jpg" alt="Instagram"><img src="assets/images/insta3.jpg" alt="Instagram"><img src="assets/images/insta4.jpg" alt="Instagram"><img src="assets/images/insta5.jpg" alt="Instagram"><img src="assets/images/insta6.jpg" alt="Instagram"></div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="container footer-grid">
+      <div><img src="assets/images/logo.png" class="footer-logo" alt="NAZARYA"><p>WEAR YOUR IDENTITY</p><p>◎ &nbsp; f &nbsp; ♪</p></div>
+      <div><h4>SHOP</h4><a href="#shop">All Products</a><a href="#shop">T-Shirts</a><a href="#collections">Collections</a><a href="#shop">New Arrivals</a></div>
+      <div><h4>CUSTOMER CARE</h4><a href="#">Size Guide</a><a href="#">Shipping Policy</a><a href="#">Returns & Exchange</a><a href="#">FAQs</a><a href="#contact">Contact Us</a></div>
+      <div><h4>NEWSLETTER</h4><p>Join our community for early access to drops and exclusive offers.</p><form id="newsletterForm" class="newsletter"><input id="newsletterEmail" type="email" placeholder="Enter your email" required><button aria-label="Subscribe">➤</button></form></div>
+    </div>
+    <div class="container copyright">© 2026 NAZARYA. ALL RIGHTS RESERVED.</div>
+  </footer>
+
+  <div id="backdrop" class="drawer-backdrop"></div>
+  <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+    <div class="drawer-head"><h3>YOUR BAG</h3><button id="closeCart" class="close-btn">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="drawer-foot"><div class="total-row"><span>Subtotal</span><strong id="cartTotal">PKR 0</strong></div><button id="checkoutBtn" class="gold-btn">CHECKOUT</button></div>
+  </aside>
+
+  <div id="checkoutModal" class="modal">
+    <div class="modal-card">
+      <button id="closeCheckout" class="close-btn" style="float:right">×</button>
+      <h2>Checkout</h2>
+      <form id="checkoutForm">
+        <div class="form-grid">
+          <div class="field"><label>FULL NAME</label><input name="customer_name" required></div>
+          <div class="field"><label>PHONE</label><input name="phone" required></div>
+          <div class="field"><label>EMAIL</label><input name="email" type="email"></div>
+          <div class="field"><label>CITY</label><input name="city" required></div>
+          <div class="field full"><label>DELIVERY ADDRESS</label><textarea name="address" required></textarea></div>
+          <div class="field"><label>PAYMENT METHOD</label><select name="payment_method"><option value="COD">Cash on Delivery</option></select></div>
+        </div>
+        <div class="checkout-actions"><button class="gold-btn" type="submit">PLACE ORDER</button></div>
+        <div id="checkoutNotice" class="notice">Free delivery on orders above PKR 5,000.</div>
+      </form>
+    </div>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

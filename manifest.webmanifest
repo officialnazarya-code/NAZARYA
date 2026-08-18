@@ -1,0 +1,9 @@
+{
+  "name":"NAZARYA E-Commerce",
+  "short_name":"NAZARYA",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#080806",
+  "theme_color":"#080806",
+  "description":"NAZARYA premium fashion store"
+}
